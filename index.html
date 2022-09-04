@@ -26,7 +26,9 @@
          style="background-color: #0a0218"
       >
          <div class="container-fluid">
-            <a class="navbar-brand" href="#">Gary Campbell</a>
+            <a class="navbar-brand fs-3 text-uppercase fw-bold" href="#"
+               >Gary Campbell</a
+            >
             <button
                class="navbar-toggler"
                type="button"
@@ -42,7 +44,7 @@
                class="collapse navbar-collapse justify-content-end"
                id="navbarNavAltMarkup"
             >
-               <div class="navbar-nav">
+               <div class="navbar-nav text-uppercase">
                   <a class="nav-link active" aria-current="page" href="#"
                      >Home</a
                   >
@@ -122,8 +124,8 @@
       </div>
 
       <!-- services -->
-      <div class="container-xxl">
-         <h2 class="text-uppercase">Services</h2>
+      <div class="container-xxl services" id="services">
+         <h1 class="text-uppercase mb-5">Services</h1>
          <div class="row gx-5">
             <div class="col-md-4">
                <img
@@ -131,7 +133,18 @@
                   src="images/portrait.jpg"
                   alt="portrait"
                />
-               <h2>Portrait</h2>
+               <h2 class="mt-4">Portrait</h2>
+               <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Dolor eius qui fugiat sit perspiciatis sapiente, est deserunt
+                  molestias ad aspernatur facere tempore impedit harum. Duis
+                  aute irure dolor in reprehenderit voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur.
+               </p>
+            </div>
+            <div class="col-md-4 second-serv">
+               <img class="img-fluid" src="images/product.jpg" alt="product" />
+               <h2 class="mt-4">Product / Commercial</h2>
                <p>
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                   Dolor eius qui fugiat sit perspiciatis sapiente, est deserunt
@@ -140,28 +153,9 @@
                   dolore eu fugiat nulla pariatur.
                </p>
             </div>
-            <div class="col-md-4">
-               <img
-                  class="img-fluid"
-                  src="images/product.jpg"
-                  alt="Product / Commercial"
-               />
-               <h2>Portrait</h2>
-               <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Dolor eius qui fugiat sit perspiciatis sapiente, est deserunt
-                  molestias ad aspernatur facere tempore impedit harum? Duis
-                  aute irure dolor in reprehenderit voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur.
-               </p>
-            </div>
-            <div class="col-md-4">
-               <img
-                  class="img-fluid"
-                  src="images/wedding.jpg"
-                  alt="wedding"
-               />
-               <h2>Weddings</h2>
+            <div class="col-md-4 third-serv">
+               <img class="img-fluid" src="images/wedding.jpg" alt="wedding" />
+               <h2 class="mt-4">Weddings</h2>
                <p>
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                   Dolor eius qui fugiat sit perspiciatis sapiente, est deserunt
@@ -171,9 +165,57 @@
                </p>
             </div>
          </div>
-         
       </div>
 
+      <!-- portfolio -->
+      <section class="portfolio" id="portfolio">
+         <div class="container-xxl">
+            <h1 class="text-uppercase mb-5 text-center">Portfolio</h1>
+            <div
+               class="row"
+               data-masonry='{"percentPosition": true }'
+               style="position: relative"
+            >
+               <div class="col-lg-3 mb-4">
+                  <img class="img-fluid" src="images/gal-1.jpg" alt="woman portrait"/>
+               </div>
+               <div class="col-lg-3 mb-4">
+                  <img class="img-fluid" src="images/gal-5.jpg" alt="watch"/>
+               </div>
+               <div class="col-lg-3 mb-4">
+                  <img class="img-fluid" src="images/gal-3.jpg" alt="groom"/>
+               </div>
+               <div class="col-lg-3 mb-4">
+                  <img class="img-fluid" src="images/gal-10.jpg" alt="pineapple"/>
+               </div>
+               <div class="col-lg-3 mb-4">
+                  <img class="img-fluid" src="images/gal-2.jpg" alt="neon portrait"/>
+               </div>
+               <div class="col-lg-3 mb-4">
+                  <img class="img-fluid" src="images/gal-7.jpg" alt="man portrait"/>
+               </div>
+               <div class="col-lg-3 mb-4">
+                  <img class="img-fluid" src="images/gal-4.jpg" alt="heels"/>
+               </div>
+               <div class="col-lg-3 mb-4">
+                  <img class="img-fluid" src="images/gal-6.jpg" alt="sneakers"/>
+               </div>
+               <div class="col-lg-3 mb-4">
+                  <img class="img-fluid" src="images/gal-9.jpg" alt="bulb"/>
+               </div>
+               <div class="col-lg-3 mb-4">
+                  <img class="img-fluid" src="images/gal-8.jpg" alt="room"/>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <script
+         src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
+         integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D"
+         crossorigin="anonymous"
+         async
+      ></script>
       <script
          src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
          integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
