@@ -6,8 +6,7 @@ body,
 h1,
 h2,
 h3,
-h4,
-h5 {
+h4 {
    font-family: "Manrope", sans-serif;
 }
 body {
@@ -22,10 +21,6 @@ h1 {
 h2 {
    font-weight: 400;
    font-size: 44px;
-}
-h3 {
-   font-weight: 800;
-   font-size: 82px;
 }
 .services,
 .portfolio,
@@ -47,6 +42,10 @@ h3 {
 }
 .contact {
    background-color: #140330;
+}
+.contact h1 {
+   font-weight: 800;
+   font-size: 82px;
 }
 .btn {
    background-color: #520dc2;
@@ -77,4 +76,94 @@ footer {
 }
 .authorLink:hover {
    color: #b388f9;
+}
+
+@media all and (max-width: 1280px) {
+   h1 {
+      font-size: 140px;
+   }
+   h2 {
+      font-size: 40px;
+   }
+   body {
+      font-size: 16px;
+   }
+   .contact h1 {
+      font-size: 64px;
+   }
+   .btn {
+      padding: 14px 36px;
+   }
+   .services,
+   .portfolio,
+   .prices,
+   .contact {
+      padding: 80px 40px;
+   }
+}
+
+@media all and (max-width: 992px) {
+   h1 {
+      font-size: 100px;
+   }
+   h2 {
+      font-size: 54px;
+   }
+   body {
+      font-size: 22px;
+   }
+   .contact h1 {
+      font-size: 64px;
+   }
+   .btn {
+      padding: 14px 36px;
+   }
+   .services,
+   .portfolio,
+   .prices,
+   .contact {
+      padding: 80px 40px;
+   }
+   .second-serv {
+      margin-top: 50px;
+   }
+   .third-serv {
+      margin-top: 50px;
+   }
+}
+
+@media all and (max-width: 576px) {
+   h1 {
+      font-size: 48px;
+   }
+   h2 {
+      font-size: 30px;
+   }
+   body {
+      font-size: 15px;
+   }
+   .contact h1 {
+      font-size: 44px;
+   }
+   .services,
+   .portfolio,
+   .prices,
+   .contact {
+      padding: 40px 20px;
+   }
+   .services h1,
+   .portfolio h1,
+   .prices h1 {
+      margin-bottom: 20px !important;
+   }
+   .second-serv {
+      margin-top: 20px;
+   }
+   .third-serv {
+      margin-top: 20px;
+   }
+   footer {
+      font-size: 14px;
+      padding: 25px 0 10px 0;
+   }
 }
