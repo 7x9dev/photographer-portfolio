@@ -29,7 +29,8 @@ h3 {
 }
 .services,
 .portfolio,
-.prices, .contact {
+.prices,
+.contact {
    padding: 100px 0;
 }
 .second-serv {
@@ -58,4 +59,22 @@ h3 {
    border: 1px #f0e7fe solid;
    color: #f0e7fe;
    background-color: transparent;
+}
+footer {
+   background-color: #0a0218;
+   padding: 35px 0 15px 0;
+}
+.webLink {
+   color: #fff;
+   text-decoration: none;
+}
+.authorLink {
+   color: #b388f9;
+   text-decoration: none;
+}
+.webLink:hover {
+   color: #fff;
+}
+.authorLink:hover {
+   color: #b388f9;
 }
