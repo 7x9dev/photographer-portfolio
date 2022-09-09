@@ -25,7 +25,8 @@ h2 {
 .services,
 .portfolio,
 .prices,
-.contact {
+.contact,
+.about {
    padding: 100px 0;
 }
 .second-serv {
@@ -33,9 +34,6 @@ h2 {
 }
 .third-serv {
    margin-top: 140px;
-}
-.portfolio {
-   background-color: #1f0549;
 }
 .portfolio h1 {
    opacity: 0.3;
@@ -50,7 +48,7 @@ h2 {
 .btn {
    background-color: #520dc2;
    color: #f0e7fe;
-   padding: 16px 40px;
+   padding: 15px 40px;
    font-size: 17px;
    text-transform: uppercase;
 }
@@ -97,7 +95,8 @@ footer {
    .services,
    .portfolio,
    .prices,
-   .contact {
+   .contact,
+   .about {
       padding: 80px 40px;
    }
 }
@@ -121,7 +120,8 @@ footer {
    .services,
    .portfolio,
    .prices,
-   .contact {
+   .contact,
+   .about {
       padding: 80px 40px;
    }
    .second-serv {
@@ -148,7 +148,8 @@ footer {
    .services,
    .portfolio,
    .prices,
-   .contact {
+   .contact,
+   .about {
       padding: 40px 20px;
    }
    .services h1,
