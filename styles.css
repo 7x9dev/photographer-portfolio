@@ -26,7 +26,8 @@ h2 {
 .portfolio,
 .prices,
 .contact,
-.about {
+.about,
+.work {
    padding: 100px 0;
 }
 .second-serv {
@@ -96,7 +97,8 @@ footer {
    .portfolio,
    .prices,
    .contact,
-   .about {
+   .about,
+   .work {
       padding: 80px 40px;
    }
 }
@@ -121,7 +123,8 @@ footer {
    .portfolio,
    .prices,
    .contact,
-   .about {
+   .about,
+   .work {
       padding: 80px 40px;
    }
    .second-serv {
@@ -149,7 +152,8 @@ footer {
    .portfolio,
    .prices,
    .contact,
-   .about {
+   .about,
+   .work {
       padding: 40px 20px;
    }
    .services h1,
